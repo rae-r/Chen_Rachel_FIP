@@ -389,5 +389,71 @@ input, textarea {
 .book-now a{
    text-decoration: none;
    color: #fff;
+}
+input[type="text"]{
+   margin-bottom: 10px;
+   border-radius: 5px;
+   height: 30px;
+   text-indent: 1%;
+}
+textarea{
+   margin-bottom: 10px;
+   border-radius: 5px;
+   text-indent: 1%;
+}
+input[type="button"]{
+   background-color: #e8e7e7;
+   color:   #333;
+   border: 3px solid #9a2018;
+   font-family: inherit;
+   height: 45px;
+   margin: 5px 0;
+   cursor: pointer;
+}
+#promocode{
+   margin: 10px 0px;
+   text-align: center;
+}
 
+/* desktop page */
+#desktop-header{
+   display: flex;
+   align-items: center;
+}
+#desktop-nav{
+   margin: 0 auto;
+   margin-right: 10px;
+}
+#desktop-nav ul{
+   list-style-type: none;
+}
+#desktop-nav ul li{
+   display: inline;
+   margin: 0 30px;
+   text-decoration: none;
+   color: #333;
+}
+#desktop-logo{
+   width: 450px;
+   margin: 10px 20px;
+}
+.page-sub-title-desktop{
+   text-align: center;
+   margin: 10px 0px;
+}
+.desktop-img{
+   display: flex;
+   justify-content: center;
+}
+.rooms-desktop-img{
+   object-fit: cover;
+   width: 1200px;
+   height: 200px;
+   border: 2px solid #9a2018;
+}
+.desktop-summary p{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin: 10px 200px;
 }
